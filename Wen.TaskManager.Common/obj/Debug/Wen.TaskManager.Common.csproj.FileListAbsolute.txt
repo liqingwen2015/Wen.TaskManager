@@ -1,0 +1,7 @@
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Common\bin\Debug\Wen.TaskManager.Common.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Common\bin\Debug\Wen.TaskManager.Common.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Common\obj\Debug\Wen.TaskManager.Common.csprojResolveAssemblyReference.cache
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Common\obj\Debug\Wen.TaskManager.Common.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Common\obj\Debug\Wen.TaskManager.Common.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Common\bin\Debug\StackExchange.Redis.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Common\bin\Debug\StackExchange.Redis.xml

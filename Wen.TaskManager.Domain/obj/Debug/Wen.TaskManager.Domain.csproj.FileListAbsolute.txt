@@ -1,0 +1,5 @@
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Domain\bin\Debug\Wen.TaskManager.Domain.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Domain\bin\Debug\Wen.TaskManager.Domain.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Domain\obj\Debug\Wen.TaskManager.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Domain\obj\Debug\Wen.TaskManager.Domain.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.Domain\obj\Debug\Wen.TaskManager.Domain.pdb

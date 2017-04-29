@@ -1,0 +1,16 @@
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.DAL.UnitTest.dll.config
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.DAL.UnitTest.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.DAL.UnitTest.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.Common.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.DAL.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.Domain.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Dapper.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.Common.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.DAL.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Wen.TaskManager.Domain.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\Dapper.xml
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\obj\Debug\Wen.TaskManager.DAL.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\obj\Debug\Wen.TaskManager.DAL.UnitTest.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\obj\Debug\Wen.TaskManager.DAL.UnitTest.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\StackExchange.Redis.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL.UnitTest\bin\Debug\StackExchange.Redis.xml

@@ -1,0 +1,13 @@
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Wen.TaskManager.DAL.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Wen.TaskManager.DAL.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Dapper.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Wen.TaskManager.Common.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Wen.TaskManager.Domain.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Wen.TaskManager.Common.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Wen.TaskManager.Domain.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\Dapper.xml
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\obj\Debug\Wen.TaskManager.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\obj\Debug\Wen.TaskManager.DAL.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\obj\Debug\Wen.TaskManager.DAL.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\StackExchange.Redis.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.DAL\bin\Debug\StackExchange.Redis.xml

@@ -1,0 +1,112 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            首页
+            <small></small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="#">Tables</a></li>
+            <li class="active">Simple</li>
+        </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Bordered Table</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>类型</th>
+                                <th>内容</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.AcceptTypes)</th>
+                                <th>@Request.AcceptTypes</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.AnonymousID)</th>
+                                <th>@Request.AnonymousID</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.AppRelativeCurrentExecutionFilePath)</th>
+                                <th>@Request.AppRelativeCurrentExecutionFilePath</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.ApplicationPath)</th>
+                                <th>@Request.ApplicationPath</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.Browser)</th>
+                                <th>@Request.Browser</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.ClientCertificate)</th>
+                                <th>@Request.ClientCertificate</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.ContentEncoding)</th>
+                                <th>@Request.ContentEncoding</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.ContentLength)</th>
+                                <th>@Request.ContentLength</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.ContentType)</th>
+                                <th>@Request.ContentType</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.Cookies)</th>
+                                <th>@Request.Cookies</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.UserHostAddress)</th>
+                                <th>@Request.UserHostAddress</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.IsLocal)</th>
+                                <th>@Request.IsLocal</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.Headers)</th>
+                                <th>@Request.Headers</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.HttpMethod)</th>
+                                <th>@Request.HttpMethod</th>
+                            </tr>
+                            <tr>
+                                <th>@nameof(Request.UserAgent)</th>
+                                <th>@Request.UserAgent</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer clearfix">
+                        <ul class="pagination pagination-sm no-margin pull-right">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

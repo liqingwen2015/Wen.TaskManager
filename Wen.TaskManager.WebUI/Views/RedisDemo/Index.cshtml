@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Auto Complete";
+    Layout = null;
+}
+
+<div>
+    <div><h2>下拉联想</h2></div>
+    <div class="row">
+        <input id="key" name="key" placeholder="search" class="form-control col-md-4">
+        <button class="btn btn-primary" type="button" id="searchSubmit">Search</button>
+        <div id="result"></div>
+    </div>
+    <br />
+    <div><h2>登录活跃度</h2></div>
+    <div id="divLoginActivity" class="row">
+        <button class="btn btn-primary" type="button" id="btnLoginActivity1">小A</button>
+        <button class="btn btn-primary" type="button" id="btnLoginActivity2">小B</button>
+        <button class="btn btn-primary" type="button" id="btnLoginActivity3">小C</button>
+        <button class="btn btn-primary" type="button" id="btnLoginActivity4">小D</button>
+        <button class="btn btn-primary" type="button" id="btnLoginActivity5">小E</button>
+        <button class="btn btn-primary" type="button" id="btnLoginActivity6">小F</button>
+    </div>
+    <div id="">
+        <ul id="ulLoginActivity"></ul>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#key').on('keyup', function () {
+            var $result = $("#result");
+            $result.empty();
+            var keyVal = $('#key').val();
+            $.ajax({
+                url: "@Url.Action("GetHotKey", "RedisDemo")",
+                dataType: "json",
+                data: {
+                    key: keyVal
+                },
+                success: function (result) {
+                    console.log(result);
+                    if (result.state == 1) {
+                        var p = "<p>";
+                        var data = result.data;
+
+                        $.each(data, function (i, v) {
+                            p = p + "<span>" + v + "</span><br />";
+                        });
+
+                        p += "</p>";
+
+                        $(p).appendTo($result);
+                    }
+                }
+            });
+        });
+
+        //获取最近的登录用户
+        var getLastLoginActivityUser = function () {
+            $.ajax({
+                url: "@Url.Action("GetLastLoginActivityUser", "RedisDemo")",
+                dataType: "json",
+                data: {
+                    num: 5
+                },
+                type: "post",
+                success: function (result) {
+                    console.log(result);
+                    if (result.state == 1) {
+                        var p = "";
+                        var $ulLoginActivity = $('#ulLoginActivity');
+                        $ulLoginActivity.empty();
+                        var data = result.data;
+
+                        $.each(data, function (i, v) {
+                            p = p + "<li><span>" + v + "</span></li>";
+                        });
+
+                        $(p).appendTo($ulLoginActivity);
+                    }
+                }
+            });
+        }
+
+        console.log(111);
+        var loginTest = function (name) {
+            $.ajax({
+                url: "@Url.Action("LoginTest", "RedisDemo")",
+                dataType: "json",
+                data: {
+                    name: name
+                },
+                type: "post",
+                success: function (result) {
+                    console.log(result);
+                    getLastLoginActivityUser();
+                }
+            });
+        }
+
+        $('#btnLoginActivity1').click(function () {
+            loginTest($('#btnLoginActivity1').text());
+        });
+        $('#btnLoginActivity2').click(function () {
+            loginTest($('#btnLoginActivity2').text());
+        });
+        $('#btnLoginActivity3').click(function () {
+            loginTest($('#btnLoginActivity3').text());
+        });
+        $('#btnLoginActivity4').click(function () {
+            loginTest($('#btnLoginActivity4').text());
+        });
+        $('#btnLoginActivity5').click(function () {
+            loginTest($('#btnLoginActivity5').text());
+        });
+        $('#btnLoginActivity6').click(function () {
+            loginTest($('#btnLoginActivity6').text());
+        });
+
+        $('#GetLastLoginActivityUser').click(function () {
+            loginTest($('#btnLoginActivity6').text());
+        });
+
+
+        getLastLoginActivityUser();
+    });
+</script>

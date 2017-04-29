@@ -1,0 +1,11 @@
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Wen.TaskManager.BLL.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Wen.TaskManager.BLL.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\obj\Debug\Wen.TaskManager.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\obj\Debug\Wen.TaskManager.BLL.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\obj\Debug\Wen.TaskManager.BLL.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Wen.TaskManager.DAL.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Wen.TaskManager.Domain.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Dapper.dll
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Wen.TaskManager.DAL.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Wen.TaskManager.Domain.pdb
+C:\Users\Wen\Documents\Projects\OpenSources\Wen.TaskManager\Wen.TaskManager.BLL\bin\Debug\Dapper.xml

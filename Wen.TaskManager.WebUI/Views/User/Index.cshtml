@@ -1,0 +1,67 @@
+﻿@model Wen.TaskManager.WebUI.Models.UserIndexViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            用户管理
+            <small>
+                @if (TempData["Message"] != null)
+                {
+                    @TempData["Message"].ToString();
+                }
+            </small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="#">Tables</a></li>
+            <li class="active">Simple</li>
+        </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Bordered Table</h3>
+                        <a href="@Url.Action("Create")" class="btn btn-primary pull-right"><i class="fa fa-download"></i> 新增</a>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>用户名称</th>
+                                <th width="40px">操作</th>
+                            </tr>
+                            @foreach (var user in Model.Users)
+                            {
+                                <tr>
+                                    <td>@user.Name</td>
+                                    <td><a href="@Url.Action("Edit", new { id = user.Id })" class="btn btn-primary"><i class="fa fa-download"></i> 编辑</a></td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer clearfix">
+                        <ul class="pagination pagination-sm no-margin pull-right">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
